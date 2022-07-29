@@ -8,7 +8,7 @@ export default function Calendario(){
     let navigate = useNavigate();
 
     const handleClick = (day,e) => {
-        navigate(`/${day}`)
+        navigate(`/Calendario/${day}`)
     }
 
     return(

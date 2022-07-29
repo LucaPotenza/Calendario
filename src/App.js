@@ -53,8 +53,8 @@ function App() {
     <div className="App bg-light">
         <MyContext.Provider value={{insert, setInsert, info, setInfo, click, setClick, prenotazioni, handleNewPren}}>
             <Routes>
-                <Route path="/Calendario" element={<Calendario />} />
-                <Route path="/:day" element={<Giorno/>} />
+                <Route path="/Calendario" element={<Calendario/>} />
+                <Route path="/Calendario/:day" element={<Giorno/>} />
             </Routes>
         </MyContext.Provider>
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin="true"></script>
