@@ -1,0 +1,40 @@
+img{
+    filter: grayscale(100%)contrast(3)invert(1);
+}
+
+.cont{
+    height: 100vh;
+}
+
+.footer{
+    box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.2);
+}
+
+.table-horiz-scroll {
+    overflow-x:auto;
+}
+
+.orari{
+    max-height: 66vh;
+    overflow: scroll;
+}
+
+.titoli{
+    z-index: 2;
+}
+
+.box{
+    width: 80vw;
+}
+
+.page-item.active .page-link{
+    background-color: black;
+    border-color: grey;
+}
+.page-link{
+    color: black;
+}
+
+.page-link:hover{
+    color: black;
+}
