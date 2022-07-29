@@ -53,7 +53,6 @@ function App() {
     <div className="App bg-light">
         <MyContext.Provider value={{insert, setInsert, info, setInfo, click, setClick, prenotazioni, handleNewPren}}>
             <Routes>
-                <Route path="/" element={<Calendario />} />
                 <Route path="/Calendario" element={<Calendario />} />
                 <Route path="/:day" element={<Giorno/>} />
             </Routes>
